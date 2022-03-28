@@ -20,6 +20,14 @@
   "rules": {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
+    "camelcase": "off",
+    "@typescript-eslint/naming-convention": [
+      "off",
+      {
+        "selector": "default",
+        "format": null
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
